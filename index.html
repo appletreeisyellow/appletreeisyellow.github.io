@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<title>Chunchun Ye</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="lib/stylesheet.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+
+
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <a href="index.html" title="Home Page">
+      <img src="images/ycc.JPG" style="width:45%;" class="w3-round"><br><br>
+    </a>
+    <h3><b>CHUNCHUN YE</b></h3>
+    <p class="w3-text-grey">Software Engineer</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>EXPERIENCE</a> 
+    <a href="portfolio.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a>
+    <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  </div>
+  <div class="w3-panel w3-large">
+    <a href="https://github.com/appletreeisyellow/" title="Github Page" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/chunchunye/" title="LinkedIn Page" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container w3-bottombar">
+    <h1><b>About Me / Experience</b></h1>
+    </div><br>
+  </header>
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+
+    <!-- About Me -->
+    <h2 class="w3-padding-16"><i class="fa fa-user fa-fw w3-margin-right w3-xxlarge w3-text-deep-purple"></i>About Me</h2>
+
+    <p style="padding: 0 16px">Hello, World! My name is Chunchun Ye. I am a new grad from UCLA. I am currently hunting for a software engineer job. While my previous experience was in web application on data visualization using Javascript and D3.js, this doesn't stop me from exploring and learning other new skills.</p>
+    <hr>
+    
+    <!-- Experience -->
+    <h2 class="w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-deep-purple"></i>Experience</h2>
+
+    <div class="w3-container">
+      <h4 class="w3-opacity"><b>Software Engineer</b></h4>
+      <h6 class="w3-opacity">UCLA Statistics Online Computational Resource (SOCR)</h6>
+      
+      <h6 class="w3-text-deep-purple"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2015 - Dec 2016 (1 yr 5 mos)</h6>
+      <ul>
+        <li>Worked with teams to develop user interactive Charts for SOCR Analytical Toolbox using D3.js.</li>
+        <li>Transformed and upgraded the SOCR Charts Applets from Java to a browser-independent HTML5/JavaScript framework.</li>
+      </ul>
+      <p><a href="http://socr.umich.edu/HTML5/SOCRAT/" target="_blank" title="SOCRAT Website">SOCR Analytical Toolbox Website Link</a></p>
+      <hr>
+    </div>
+
+    <!-- Technical Skills -->
+    <h2><i class="fa fa-cog fa-fw w3-margin-right w3-xxlarge w3-text-deep-purple"></i>Technical Skills</h2>
+    <div style="padding: 0 50px">
+      -  Java <br>
+      -  C++ <br>
+      -  JavaScript <br>
+      -  HTML <br>
+      -  CSS <br>
+      -  MySQL <br>
+    </div>
+    <hr>
+
+    <!-- Education -->
+    <h2><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-deep-purple"></i>Education</h2>
+
+    <div class="w3-container">
+      <h4 class="w3-opacity"><b>University of California, Los Angeles (UCLA)</b></h4>
+      <h6 class="w3-opacity">Bachelor's Degree<br>
+      Computer Science and Engineering<br>
+      Class of 2017</h6>
+      
+      <p>
+        <b>Courses:</b> <br>
+        Algorithms and Complexity, Data Structure, Database Systems, Programming Languages, Computer Graphics, Computer Network, Computer Organization, Computer Systems Architecture, Formal Languages and Automata Theory, Logic Design of Digital Systems, Operating Systems Principles, Principles of Feedback Control, Systems and Signals
+      </p>
+      <hr>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-16 w3-grey">
+    <div class="w3-center">Copyright &copy 2017 Chunchun Ye. All Rights Reserved</div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
