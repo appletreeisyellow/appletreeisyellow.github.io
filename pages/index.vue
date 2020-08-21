@@ -34,7 +34,21 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head() {
+    return {
+      title: "Chunchun Ye 👩‍💻",
+      meta: [
+        { name: "twitter:title", content: "Chunchun Ye" },
+        // TODO: update description
+        { name: "twitter:description", content: "A software engineer" },
+        //{ name: 'twitter:image', content: 'https://i.imgur.com/UYP2umJ.png'},
+        //{ name: 'twitter:card', content: 'summary_large_image'}
+        // TODO: facebook, instagram, ...
+      ],
+    };
+  },
+};
 </script>
 
 <style scoped>

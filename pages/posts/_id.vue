@@ -19,6 +19,11 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: this.post.title,
+    };
+  },
   data() {
     return {
       id: this.$route.params.id,
