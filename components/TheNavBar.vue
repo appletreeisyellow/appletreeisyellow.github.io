@@ -1,6 +1,8 @@
 <template>
   <nav class="navbar">
-    <a class="navbar-brand" href="#">Chunchun Ye</a>
+    <nuxt-link :to="{ name: 'index' }" class="navbar-brand">
+      Chunchun Ye
+    </nuxt-link>
   </nav>
 </template>
 
