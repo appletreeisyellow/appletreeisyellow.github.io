@@ -1,3 +1,7 @@
+Here are the logs I did to create the webpage from scratch using nuxt.js.
+
+---
+
 Install nuxt app
 
 ```
