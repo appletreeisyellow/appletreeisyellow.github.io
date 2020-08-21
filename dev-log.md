@@ -1,4 +1,4 @@
-Here are the logs I did to create the webpage from scratch using nuxt.js.
+This is the logs of what I did to create the webpage from scratch using nuxt.js. I also followed this free course [Nuxt.js Fundamentals](https://vueschool.io/courses/nuxtjs-fundamentals) offered by from [Vue school](https://vueschool.io/).
 
 ---
 
