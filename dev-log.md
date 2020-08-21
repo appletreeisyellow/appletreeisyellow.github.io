@@ -17,6 +17,8 @@ dist/
 .nuxt/
 ```
 
+You can find more complete `.gitignore` [here](https://github.com/appletreeisyellow/dotfiles/blob/master/.gitignore).
+
 Running the dev mode. Then open `http://localhost:3000/` in browser.
 
 ```
@@ -31,4 +33,4 @@ npm i --save @fortawesome/free-brands-svg-icons
 npm i --save @fortawesome/free-solid-svg-icons
 ```
 
-Here is a [guide](https://medium.com/@kozyreva.hanna/nuxt-js-fontawesome-integration-7ec56b1a41c8) helps you to walk through the nuxt-fontawesome installation
+Here is a [guide](https://medium.com/@kozyreva.hanna/nuxt-js-fontawesome-integration-7ec56b1a41c8) helps you to walk through the nuxt-fontawesome installation.

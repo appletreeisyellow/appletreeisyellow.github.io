@@ -1,4 +1,21 @@
-.DS_Store
-node_modules/
-dist/
-.nuxt/
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+yarn-error.log
+
+# other
+.nuxt
+dist
+.vscode
+.idea
+newrelic_agent.log
+.DS_STORE
+.eslintrc
+
+# docs
+/docs
+
+# @nuxtjs/pwa
+sw.*
