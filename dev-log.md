@@ -34,3 +34,5 @@ npm i --save @fortawesome/free-solid-svg-icons
 ```
 
 Here is a [guide](https://medium.com/@kozyreva.hanna/nuxt-js-fontawesome-integration-7ec56b1a41c8) helps you to walk through the nuxt-fontawesome installation.
+
+Set up Google Analytics. Check out this guide on ["How to use Google Analystics?"](https://nuxtjs.org/faq/ga/).

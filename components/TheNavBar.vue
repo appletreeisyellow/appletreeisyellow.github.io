@@ -17,14 +17,14 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <nuxt-link :to="{ name: 'index' }" class="nav-link">
-            Home <span class="sr-only">(current)</span>
-          </nuxt-link>
-        </li>
         <li class="nav-item">
           <nuxt-link :to="{ name: 'projects' }" class="nav-link">
             Projects
+          </nuxt-link>
+        </li>
+        <li class="nav-item">
+          <nuxt-link :to="{ name: 'contact' }" class="nav-link">
+            Contact
           </nuxt-link>
         </li>
       </ul>
