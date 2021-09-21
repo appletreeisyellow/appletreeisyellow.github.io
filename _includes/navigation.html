@@ -1,0 +1,7 @@
+<nav>
+    {% for subpage in site.data.navigation %}
+        <a href="{{ subpage.link }}" {% if page.url == subpage.link %}style="color: red;"{% endif %}>
+        {{ subpage.name }}
+        </a>
+    {% endfor %}
+</nav>
