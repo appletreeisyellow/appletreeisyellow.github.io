@@ -16,6 +16,8 @@
       <p class="f5"><a href="/blog/" class="d-flex flex-items-center">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:#0366d6 aria-label:Home %}Blog</a></p>
       {{ post_body }}
     </div>
+
+    {% include footer-section.html %}
   </div>
 {% else %}
   <div class="d-md-flex min-height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
@@ -32,6 +34,7 @@
           </div>
         </div>
       </div>
+      {% include footer-section.html %}
     </div>
   </div>
 {% endif %}

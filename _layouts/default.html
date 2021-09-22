@@ -9,6 +9,8 @@
       <h1 class="f00-light lh-condensed mb-5">{{ page.title }}</h1>
       {{ content }}
     </div>
+
+    {% include footer-section.html %}
   </div>
 {% else %}
   <div class="d-md-flex min-height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
@@ -26,6 +28,7 @@
           </div>
         </div>
       </div>
+      {% include footer-section.html %}
     </div>
   </div>
 {% endif %}

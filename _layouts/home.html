@@ -17,6 +17,8 @@
         {% include blog-list.html %}
       </div>
     {% endunless %}
+
+    {% include footer-section.html %}
   </div>
 {% else %}
   <div class="d-md-flex min-height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
@@ -42,6 +44,7 @@
           {% include blog-list.html %}
         {% endunless %}
       </div>
+      {% include footer-section.html %}
     </div>
   </div>
 {% endif %}
