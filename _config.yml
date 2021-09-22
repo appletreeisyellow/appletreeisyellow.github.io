@@ -31,6 +31,7 @@ social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
+  github: appletreeisyellow
   # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
@@ -43,7 +44,7 @@ social_media:
   # unsplash: your_username
   # vk: your_username
   website: https://www.chunchunye.com/
-# youtube: your_username
+  # youtube: your_username
 
 topics:
   - name: CSS
@@ -57,6 +58,3 @@ topics:
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
 
 email_address: hello@chunchunye.com
-twitter_username: chunyellow
-github_username: appletreeisyellow
-linkedin_username: chunchunye
