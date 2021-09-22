@@ -113,13 +113,6 @@ Parameters include:
   - `forks`: When `true`, repositories you've forked will be excluded from the listing.
   - `projects`: A list the repository names you want to exclude from the listing.
 
-#### Topics
-
-Your website comes pre-configured with three topics (e.g. "Web design" and "Sass") that appear in a section titled "My Interests." These are also stored in your repository's `_config.yml` file, where you can define each topic's name and two other optional details:
-
-- `web_url`: The web address you'd like to your topic to link to (e.g. `https://github.com/topics/sass`).
-- `image_url`: The web address of an (ideally square) image that you'd like to appear with your topic.
-
 #### Social media
 
 Your website supports linking and sharing to social media services you're using, including Behance, Dribbble, Facebook, LinkedIn, Medium, Stack Overflow, Twitter, and YouTube. To identify the services you use:
@@ -200,7 +193,6 @@ To give you a sound foundation to start your personal website, your repository i
 
 There are the usual suspects, like `header.html` and `footer.html`. But there are few more worth pointing out:
 
-- `interests.html`: A heading and dynamic list of "My Interests," which is populated with the [topics](#topics) you list in your `_config.yml`.
 - `masthead.html`: A collection of your avatar, name, bio, and other metadata that's displayed prominently on all your webpages to help identify what the website is about.
 - `post-card.html`: A compact, summarized presentation of a blog post, re-used to display a listing of your latest blog posts.
 - `projects.html`: A heading and dynamic list of "My Projects," which is populated with a listing of your newest GitHub repositories.
@@ -213,7 +205,7 @@ There are the usual suspects, like `header.html` and `footer.html`. But there ar
 Your repository comes with three layouts:
 
 - **default**: Not used by any of the built-in pages or posts, but useful for any new pages you create.
-- **home**: Used by your `index.html` homepage to display listings of your projects, interests, and (optionally) your blog posts.
+- **home**: Used by your `index.html` homepage to display listings of your projects, and (optionally) your blog posts.
 - **post**: Used by default by the posts in your `/_posts/` directory.
 
 Jekyll's convention for defining layouts is very flexible. You can [learn more about customizing your layouts in the Jekyll "Layouts" docs.](https://jekyllrb.com/docs/layouts/)
