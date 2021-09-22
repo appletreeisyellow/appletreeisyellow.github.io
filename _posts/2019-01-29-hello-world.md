@@ -1,5 +1,6 @@
 ---
 title: "Welcome to Jekyll!"
+subtitle: "Showcase of different syntax highlighting"
 author: author's name
 published: true
 ---
