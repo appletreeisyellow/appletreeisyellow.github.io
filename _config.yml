@@ -1,6 +1,13 @@
 layout: sidebar
 style: light
 
+author:
+  name: Chunchun Ye
+  email: hello@chunchunye.com
+  image_url: assets/images/profile.JPG
+  bio:
+  location: Los Angeles, CA
+
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
@@ -70,5 +77,3 @@ social_media:
   # vk: your_username
   website: https://www.chunchunye.com/
   # youtube: your_username
-
-email_address: hello@chunchunye.com
