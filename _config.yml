@@ -17,9 +17,28 @@ defaults:
 
 projects:
   - name: Film Rating Database System
-    # description:
+    description: A simple version of film review website
     web_url: https://scruffier-riding.000webhostapp.com/
-    image_url: assets/img/projects/film-rating.png
+    image_url: assets/images/projects/film-rating.png
+    skills: JavaScript, PHP, MySQL, HTML, CSS
+
+  - name: SOCR Analytical Toolbox
+    description: A scalable web platform for interactive data analysis and visualization
+    web_url: https://socr.umich.edu/HTML5/SOCRAT/
+    image_url: assets/images/projects/SOCRAT.png
+    skills: JavaScript, D3.js, HTML, CSS
+
+  - name: Parallel Image Processing
+    description: A tool for processing PPM format images in parallel
+    web_url: https://github.com/appletreeisyellow/Parallel-Image-Processing
+    image_url: assets/images/projects/parallel-image-process.png
+    skills: Java streams, Java fork-join framework
+
+  - name: Aladdin Box
+    description: A box that can be unlocked by knocking in a secret pattern
+    web_url: https://www.youtube.com/watch?v=EgvGoF6HZT4
+    image_url: assets/images/projects/aladdin-box.png
+    skills: NI myDAQ, LabVIEW, IR sensor
 
 github-repos:
   sort_by: pushed
