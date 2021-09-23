@@ -1,11 +1,9 @@
 <nav>
     {% for subpage in site.data.navigation %}
-    <div class="navigation-link">
-        <h4 class="mb-3 f4 text-gray">
+        <h4 class="mb-3 f4 text-gray d-flex flex-justify-center">
             <a href="{{ subpage.link }}" {% if page.url == subpage.link %}class="current"{% endif %}>
             {{ subpage.name }}
             </a>
         </h4>
-    </div>
     {% endfor %}
 </nav>

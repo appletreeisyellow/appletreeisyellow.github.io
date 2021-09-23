@@ -49,6 +49,10 @@
   }
 }
 
+.color-text-dark-gray {
+  color: darkgray;
+}
+
 .min-height-full {
   min-height: 100vh;
 }
@@ -70,45 +74,6 @@
   font-size: 14px;
 }
 
-.navigation-link {
-  display: block;
-  width: 100%;
-}
-
-.navigation-link h4 {
-  width: 100%;
-  text-align: center;
-  font-weight: 400;
-  padding-left: 0px;
-  padding-right: 0px;
-  align-self: center;
-}
-
-@media only screen and (max-width: 767px) {
-  .navigation-link {
-    display: flex;
-    align-self: center;
-    justify-content: center;
-  }
-
-  .navigation-link h4 {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-}
-
-@media only screen and (max-width: 414px) {
-  .navigation-link {
-    display: flex;
-    width: 80%;
-    align-self: center;
-    justify-content: center;
-  }
-
-  .navigation-link h4 {
-    min-width: 60px;
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 30%;
-  }
+.horizontal-line {
+  width: 70%;
 }
