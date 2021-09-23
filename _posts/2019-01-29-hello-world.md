@@ -2,7 +2,7 @@
 title: "Welcome to Jekyll!"
 subtitle: "Showcase of different syntax highlighting"
 author: author's name
-published: true
+published: false
 ---
 
 **Hello world**, this is my first Jekyll blog post.
