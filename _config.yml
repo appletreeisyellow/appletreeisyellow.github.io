@@ -15,6 +15,12 @@ defaults:
     values:
       layout: "post"
 
+projects:
+  - name: Film Rating Database System
+    # description:
+    web_url: https://scruffier-riding.000webhostapp.com/
+    image_url: assets/img/projects/film-rating.png
+
 github-repos:
   sort_by: pushed
   # sort_by options:
