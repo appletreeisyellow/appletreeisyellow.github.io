@@ -15,7 +15,7 @@ defaults:
     values:
       layout: "post"
 
-projects:
+github-repos:
   sort_by: pushed
   # sort_by options:
   #   - pushed
@@ -24,7 +24,7 @@ projects:
   exclude:
     archived: false
     forks: true
-    projects:
+    github-repos:
     # - repo-name
 
 social_media:
