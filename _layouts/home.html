@@ -34,15 +34,13 @@
           </div>
         {% endunless %}
 
-        {% include github-repos.html %}
-
-        {% if site.topics %}
-          {% include interests.html %}
-        {% endif %}
+        {% include projects.html %}
 
         {% unless posts_total == 0 %}
           {% include blogs.html %}
         {% endunless %}
+
+        {% include github-repos.html %}
       </div>
       {% include footer-section.html %}
     </div>
