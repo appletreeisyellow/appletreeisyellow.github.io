@@ -4,7 +4,7 @@ style: light
 author:
   name: Chunchun Ye
   email: hello@chunchunye.com
-  image_url: assets/images/profile.JPG
+  image_url: /assets/images/profile.JPG
   bio:
   location: Los Angeles, CA
 
