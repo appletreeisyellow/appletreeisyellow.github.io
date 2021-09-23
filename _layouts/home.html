@@ -36,11 +36,11 @@
 
         {% include projects.html %}
 
+        {% include github-repos.html %}
+
         {% unless posts_total == 0 %}
           {% include blogs.html %}
         {% endunless %}
-
-        {% include github-repos.html %}
       </div>
       {% include footer-section.html %}
     </div>
