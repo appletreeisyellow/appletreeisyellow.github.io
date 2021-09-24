@@ -14,12 +14,6 @@
   width: 12px;
 }
 
-.emoji {
-  width: 18px;
-  height: auto;
-  vertical-align: middle;
-}
-
 .article {
   h1,
   h2,
@@ -49,6 +43,20 @@
   }
 }
 
+a,
+a:visited {
+  color: #007dbd;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #005987;
+}
+
+.navigation-link a:hover {
+  text-decoration: none;
+}
+
 .color-text-dark-gray {
   color: darkgray;
 }
@@ -59,7 +67,6 @@
 
 .current {
   font-weight: bold;
-  color: green;
 }
 
 .profile-wrapper {
