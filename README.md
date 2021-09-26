@@ -1,8 +1,8 @@
 # Chunchun's personal website
 
-The code is originally forked from the [`github/personal-website` repository](https://github.com/github/personal-website).
+The code is originally forked from the [`github/personal-website`](https://github.com/github/personal-website) repo.
 
-### Build the site and make it available on a local server
+## Build the site and make it available on a local server
 
 ```
 bundle exec jekyll serve
