@@ -13,6 +13,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - uses: helaili/jekyll-action@v2
         with:
           token: ${{ secrets.TOKEN_GITHUB }}
       - name: Build the site in the jekyll/builder container
@@ -20,3 +21,5 @@ jobs:
           docker run \
           -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
           jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+        with:
+          token: ${{ secrets.TOKEN_GITHUB }}
