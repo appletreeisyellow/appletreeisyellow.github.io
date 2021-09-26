@@ -1,0 +1,80 @@
+layout: sidebar
+style: light
+
+author:
+  name: Chunchun Ye
+  email: hello@chunchunye.com
+  image_url: /assets/images/profile.JPG
+  bio:
+  location: Los Angeles, CA
+
+plugins:
+  - jekyll-octicons
+  - jekyll-github-metadata
+  - jemoji
+
+permalink: /blog/:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
+projects:
+  - name: Film Rating Database System
+    description: A simple version of film review website
+    web_url: https://scruffier-riding.000webhostapp.com/
+    image_url: assets/images/projects/film-rating.png
+    skills: JavaScript, PHP, MySQL, HTML, CSS
+
+  - name: SOCR Analytical Toolbox
+    description: A scalable web platform for interactive data analysis and visualization
+    web_url: https://socr.umich.edu/HTML5/SOCRAT/
+    image_url: assets/images/projects/SOCRAT.png
+    skills: JavaScript, D3.js, HTML, CSS
+
+  - name: Parallel Image Processing
+    description: A tool for processing PPM format images in parallel
+    web_url: https://github.com/appletreeisyellow/Parallel-Image-Processing
+    image_url: assets/images/projects/parallel-image-process.png
+    skills: Java streams, Java fork-join framework
+
+  - name: Aladdin Box
+    description: A box that can be unlocked by knocking in a secret pattern
+    web_url: https://www.youtube.com/watch?v=EgvGoF6HZT4
+    image_url: assets/images/projects/aladdin-box.png
+    skills: NI myDAQ, LabVIEW, IR sensor
+
+github-repos:
+  sort_by: pushed
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 9
+  exclude:
+    archived: false
+    forks: true
+    github-repos:
+    # - repo-name
+
+social_media:
+  # behance: your_username
+  # dribbble: your_username
+  email: hello@chunchunye.com
+  # facebook: your_username
+  github: appletreeisyellow
+  # hackerrank: your_username
+  # instagram: your_username
+  # keybase: your_username
+  linkedin: chunchunye
+  # mastodon: your_username
+  # medium: your_username
+  # stackoverflow: your_user_id
+  # telegram: your_username
+  twitter: chunyellow
+  # unsplash: your_username
+  # vk: your_username
+  # website: your_website_url
+  # youtube: your_username
