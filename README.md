@@ -13,3 +13,11 @@ Now browse to [http://localhost:4000](http://localhost:4000)
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## TODO
+
+- [ ] Github Action
+- [ ] SEO
+- [ ] Google Analytics
+- [ ] site map
+- [ ] web3forms.com?
