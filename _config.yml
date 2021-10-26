@@ -23,6 +23,12 @@ defaults:
       layout: "post"
 
 projects:
+  - name: Random Quote Generator
+    description: A website of showing random quotes
+    web_url: https://www.chunchunye.com/random-quote/
+    image_url: assets/images/projects/random-quote-generator.png
+    skills: React, SCSS
+
   - name: Film Rating Database System
     description: A simple version of film review website
     web_url: https://scruffier-riding.000webhostapp.com/
