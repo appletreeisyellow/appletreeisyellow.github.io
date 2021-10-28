@@ -24,7 +24,7 @@ defaults:
 
 projects:
   - name: Random Quote Generator
-    description: A website showing quotes
+    description: A website generats and shows random quotes
     web_url: https://www.chunchunye.com/random-quote/
     image_url: assets/images/projects/random-quote-generator.png
     skills: React, SCSS, Ajax
