@@ -24,10 +24,10 @@ defaults:
 
 projects:
   - name: Random Quote Generator
-    description: A website of showing random quotes
+    description: A website showing quotes
     web_url: https://www.chunchunye.com/random-quote/
     image_url: assets/images/projects/random-quote-generator.png
-    skills: React, SCSS
+    skills: React, SCSS, Ajax
 
   - name: Film Rating Database System
     description: A simple version of film review website
