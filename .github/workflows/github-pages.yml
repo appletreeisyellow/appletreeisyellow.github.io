@@ -16,3 +16,5 @@ jobs:
       - uses: helaili/jekyll-action@v2
         with:
           token: ${{ secrets.TOKEN_GITHUB }}
+        env:
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
