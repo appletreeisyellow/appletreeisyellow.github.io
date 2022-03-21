@@ -1,18 +1,22 @@
 name: Build and deploy Jekyll site to GitHub Pages
 
+# Controls when the workflow will run
 on:
+  # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches:
-      - dev
+    branches: [dev]
   pull_request:
-    branches: [gh-pages]
+    branches: [dev]
 
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   github-pages:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
       - uses: helaili/jekyll-action@v2
         with:
           token: ${{ secrets.TOKEN_GITHUB }}
