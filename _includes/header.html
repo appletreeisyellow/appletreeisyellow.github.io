@@ -28,6 +28,7 @@
     <meta property="og:image" content="{{ author.image_url }}" />
     <meta property="og:description" content="{{ meta_description }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="{{ "/assets/css/styles.css" | relative_url }}" rel="stylesheet" type="text/css">
+    <link rel="preload">
+    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}" type="text/css">
   </head>
   <body class="bg-white min-height-full" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
